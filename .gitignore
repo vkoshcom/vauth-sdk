@@ -1,0 +1,41 @@
+# Compiled Binaries & Executables
+/bin/
+/dist/
+*.exe
+*.exe?
+*.dll
+*.so
+*.dylib
+
+# Go build, test & coverage artifacts
+*.out
+*.test
+*.prof
+*.bak
+go.sum.bak
+coverage.txt
+coverage.html
+vendor/
+
+# Environment and Secrets
+.env*
+!.env.example
+*.local.yaml
+*.local.json
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary and Log files
+/tmp/
+/logs/
+*.log
+
+# Scratch directory
+scratch/
